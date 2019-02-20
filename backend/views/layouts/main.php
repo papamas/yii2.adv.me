@@ -10,12 +10,15 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
 
-//AppAsset::register($this);
-//Register class
-if (class_exists('ramosisw\CImaterial\web\MaterialAsset')) {
+
+// back to default theme
+AppAsset::register($this);
+
+// Register matrial theme class
+/* if (class_exists('ramosisw\CImaterial\web\MaterialAsset')) {
     ramosisw\CImaterial\web\MaterialAsset::register($this);
 }
-
+ */
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
