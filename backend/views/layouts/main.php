@@ -12,13 +12,13 @@ use common\widgets\Alert;
 
 
 // back to default theme
-//AppAsset::register($this);
+AppAsset::register($this);
 
 // Register matrial theme class
-if (class_exists('ramosisw\CImaterial\web\MaterialAsset')) {
+/* if (class_exists('ramosisw\CImaterial\web\MaterialAsset')) {
     ramosisw\CImaterial\web\MaterialAsset::register($this);
 }
-
+ */
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
